@@ -1,0 +1,18 @@
+  /*ブラウザ自体をちょっと透過*/
+  #browser {
+    opacity: 0.9;
+  }
+
+  /*透明でいいやん*/
+  #sidebar-box {
+
+    opacity: 0.4;
+  }
+
+  /*ホバーされたときのほうが透明度が低い！*/
+  #sidebar-box:hover {
+
+    opacity: 0.8;
+  }
+
+  /*#navigator-toolbox{opacity:0.9;}*/

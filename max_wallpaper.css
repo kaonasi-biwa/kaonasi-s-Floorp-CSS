@@ -1,0 +1,11 @@
+  /*画像を全体に持ってくる*/
+  body {
+    background-image: var(--lwt-additional-images);
+    background-repeat: var(--lwt-background-tiling);
+    background-position: var(--lwt-background-alignment);
+    background-size: cover;
+  }
+    /*背景を透過できるようにしてた気がする*/
+#navigator-toolbox {
+background: none !important;
+}
